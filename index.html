@@ -1,0 +1,67 @@
+<!-- FileName: index.html
+ * Author: Pratibha Natani
+ * Description: This file designs the main page for the Snake Game
+ * References:
+ * http://www.tizag.com/phpT/forms.php
+ * http://www.w3schools.com/js/js_objects.asp
+ * Collboration:
+ * I discussed the project with following people: 
+ * Neeraja Kanth Budamagunta, Padmaja Matlaparti
+ * Minh Truong, Ni Ba
+ -->
+<html>
+	<head>
+	  <link rel="stylesheet" type="text/css" href="Snake.css"> 
+	</head>
+<body>
+ <div id="main">
+	<br/><br/>
+	<div id="title">SNAKE GAME</div>
+	<br/><br/>
+	<h4>Choose your Game:</h4>
+	
+	<form action="Snake.php" method="post"> 
+	Board Size:<select name="BoardSize" id="BoardSize">
+	<option>300 X 400</option>
+	<option>400 X 500</option>
+	<option>500 X 500</option>
+	<option>500 X 600</option>
+	<option>600 X 600</option>
+	<option>700 X 600</option>
+	</select>
+
+	Snake Pace: <select name="SnakePace" id="SnakePace">
+	<option>Slow</option>
+	<option>Medium</option>
+	<option>Fast</option>
+	</select>
+
+	Simultaneous Goals: <select name="Goals" id="Goals">
+	<option>01</option>
+	<option>02</option>
+	<option>03</option>
+	<option>04</option>
+	<option>05</option>
+	<option>10</option>
+	<option>15</option>
+	</select>
+
+
+	<input type="submit" value="Play"/>
+	</form>
+
+	</div>
+	</br></br></br></br></br>
+	<div id="instructions">
+						<h4 id="help"> Game Instructions:</h4>
+						<ul>
+						<li>Press ARROW keys to control the snake head.</li>
+						<li>Colliding with goals/food will lengthen the snake.</li>
+						<li>Colliding with walls or the tail of your snake will end the game.</li>
+						<li>Game has three levels. You win if you finish Level 3.</li>
+						<li>As you cross next level the snake will move faster.</li>
+						</ul>
+	</div>
+
+</body>
+</html>

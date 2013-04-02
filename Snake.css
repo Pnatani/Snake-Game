@@ -1,0 +1,87 @@
+/* FileName: Snake.css
+ * Author: Pratibha Natani
+ * Description: This file contains the styling elements for the game.
+ * References:
+ * http://www.tizag.com/phpT/forms.php
+ * http://www.w3schools.com/js/js_objects.asp
+ * Collboration:
+ * I discussed the project with following people: 
+ * Neeraja Kanth Budamagunta, Padmaja Matlaparti
+ * Minh Truong, Ni Ba
+ */
+
+#main {
+    
+	text-align:center;
+	
+}
+#main #title {
+    
+    font-size:26px;
+	font-style:bold;
+	margin-top:20px;
+}
+#instructions {
+    text-align:center;
+}
+#instructions ul {
+    list-style-type:square;
+	text-align:left;
+	margin-left: 330;
+}
+body {
+    background-color:#4AA02C;
+    margin:0;
+    padding:0;
+    font:13px arial;
+}
+#Board{
+    border:1px solid black;
+    margin:0px 0 0 0px;
+	left:10px;
+	top:10px;
+	background-color:black;
+	height:;
+	width:
+}
+
+#snake0{
+	position:absolute;
+    left:0;
+	top:0;
+	height:10px;
+	}
+#snake1{
+	position:absolute;
+	left:0;
+	top:0;
+	height:10px;
+	}
+#snake2
+{
+	position:absolute;
+	left:0;
+	top:0;
+	height:10px;
+	}
+
+#scoreLabel{
+	position:absolute;
+	height:;
+	width:;
+	left:800px;
+	top:13px;
+	font-weight: bold;
+	font-size:20px;
+	}
+#scoreText{
+    background-color:#4AA02C;
+	border:none;
+	position:absolute;
+	height:;
+	width: 70px;
+	left:870px;
+	top:10px;
+	size:20px;
+	font-size:20px;
+}
