@@ -73,5 +73,3 @@ References/Collaboration:
 
 •	http://www.w3schools.com/js/js_objects.asp
 
-I discussed the project with following people: 
-•	Neeraja Kanth Budamagunta, Padmaja Matlaparti, Minh Truong, Ni Ba
