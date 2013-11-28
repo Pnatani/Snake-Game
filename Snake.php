@@ -5,10 +5,6 @@
  * http://www.tizag.com/phpT/forms.php
  * http://www.w3schools.com/js/js_objects.asp
  * http://odhyan.com/blog/2010/10/snake-in-javascript/
- * Collboration:
- * I discussed the project with following people: 
- * Neeraja Kanth Budamagunta, Padmaja Matlaparti
- * Minh Truong, Ni Ba
  -->
 <html>
 	<head>
